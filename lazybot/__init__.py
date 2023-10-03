@@ -80,7 +80,7 @@ class DrDevAutoFilterbotXBot(Client):
                 yield message
                 current += 1
                 
-DrDevAutoFilterbot = DrDevAutoFilterbotsXBot()
+DrDevAutoFilterbot = DrDevAutoFilterbot()
 
 multi_clients = {}
 work_loads = {}
