@@ -39,14 +39,14 @@ from lazybot.clients import initialize_clients
 
 ppath = "plugins/*.py"
 files = glob.glob(ppath)
-LazyPrincessBot.start()
+DrDevAutoFilterbot.start()
 loop = asyncio.get_event_loop()
 
 
 async def Lazy_start():
     print('\n')
     print('Initalizing Lazy Bot')
-    bot_info = await LazyPrincessBot.get_me()
+    bot_info = await DrDevAutoFilterbot.get_me()
     LazyPrincessBot.username = bot_info.username
     await initialize_clients()
     for name in files:
