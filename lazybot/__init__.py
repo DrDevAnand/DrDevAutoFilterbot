@@ -30,7 +30,7 @@ from aiohttp import web
 from pyrogram import Client
 from info import *
 
-class DrDevAutoFilterbotXBot(Client):
+class DrDevAutoFilterbot(Client):
     def __init__(self):
         super().__init__(
             name=SESSION,
